@@ -1,0 +1,28 @@
+body {
+    background-color: violet; 
+
+    }
+#segundo {
+    background-color: rgb(70, 243, 255);
+    color: brown;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.diferente {
+    background-color: rgb(243, 216, 12);
+    color: white;
+    font-size: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    
+}
+
