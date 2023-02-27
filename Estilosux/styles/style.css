@@ -3,22 +3,39 @@
 /* font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
 
+/* RESET DE PROPRIEDADE */
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
     color: grey;
+    background-color: #EDECED;
 }
 
 header{
-    background-color: grey;
+    background-color: #676767;
 }
 
-header .grid-layout {
+/* layout do grid centralizado */
+.grid-layout {
     width: 80%;
-    margin: 0 auto;
-    /* background-color: yellowgreen; */
+    margin: 0 auto; 
+    /* margens automaticas para centralizar o conteudo */
+    
+}
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
 
-
+/* imagem centralizada, valor 100% pois segue o tamanho do pai */
+main #lapis {
+    width: 100%;
 }
 
 header .header-flex {
@@ -53,12 +70,32 @@ header nav a {
     text-decoration: none;
 }
 
+main .colunas-flex{
+    display: flex;
+    justify-content: space-between;
+  
+}
+/* coluna da section */
+main .coluna1 {
+    width: 75%;
+    background-color: white;
+}
+/* coluna do aside */
+main .coluna2 {
+    width: 23%;
+ 
+}
+/* mudança nos articles */
+main .coluna2 article {
+    background-color: white;
+    margin-bottom: 20px;
+}
 
 
 
 
-
-footer{
-    background-color: grey;
+footer {
+    background-color: #676767;
     color: white;
+   
 }
