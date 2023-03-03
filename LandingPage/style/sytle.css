@@ -1,144 +1,241 @@
-/* -------------FONTES----------------- */
-/* bebas neue para buscar endereço fonte "src: url(../ ..)" */
 @font-face {
-    font-family: BebasNeue ;
+    font-family: BebasNeue-Regular;
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
 
-    font-family: 'Courier New', Courier, monospace;
+@font-face {
+    font-family: CourierPrime-Bold;
     src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
-   
+}
 
-/* -----------RESET---------- */
-*{
+@font-face {
+    font-family: OpenSans-VariableFont;
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}   
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Courier Prime', monospace;
+font-family: 'Open Sans', sans-serif; */
+
+/* reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* --------container grid--------------- */
-
-.layout-grid {
+/* centraliza conteudos */
+.layout-grid{
     width: 100%;
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid green;
+    /* border: 3px solid green; */
 }
 
-/* ----------------HEADER------------- */
+/* cabeçalho */
+header {
+    height: 60px;
+    background-color: red;
+   
+}
 
-header .header-flex{
-
+/* flexbox no cabeçalho */
+header .header-flex {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-header {
-    
-    background-color: red;
-    height: 60px;
-}
-
 header nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     height: 22px;
     width: 591px;
+    
 }
 
 header nav a {
-    font-family: BebasNeue;
-    color: white;
+    font-family: 'BebasNeue-Regular';
+    text-transform: uppercase;
     text-decoration: none;
+    color: white;
     font-size: 18px;
+    /* letter-spacing: 2px; */
+}
+
+/* ao passar o mouse */
+header nav a:hover {
+    background-color: white;
+    color: red;
 }
 
 
+/* main */
 
-/* --------------MAIN----------------- */
-
-#box-main {
-
+main .banner {
+    width: 100%;
     height: 740px;
-    border: 1px solid black;
-    background-color: #340b65;
-    position: relative;
+    color: white;
+
+    background-image: url(../assets/images/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
 }
 
-#box-titulo {
-    height: 343px;
-    width: 546px;
-    border: 3px solid black;
+main .banner-flex{
+    display: flex;
+    align-items: center;
+}
+
+main .banner #desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border: 1px solid white;
+}
+
+/* DESENVOLVIMENTO DE SISTEMAS */
+article #desenvolvimento h1 {
+    color: white;
+    font-family: 'BebasNeue-Regular';
+    font-weight: normal;
+    font-size: 96px;
+    width: 545px;
+    height: 230px;
+    /* border: 5px solid peru; */
+
+}
+
+/* SENAI INFORMATICA */
+article #desenvolvimento h2 {
+    color: #F9003D;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 53px;
+    /* border: 5px solid palegreen; */
+
+    margin-top: 29px;
+}
+
+/*  */
+#linha {
+    width: 545px;
+    height: 1px;
+    margin-top: 16px;
+    background-color: #FFAF00;
+}
+
+#mouse {
+    width: 80px;
+    height: 80px;
+    margin-top: 29px;
+}
+
+
+/* main part sobre */
+.sobre {
+    height: 800px;
+    background-color: #080324;
+    
+
+}
+
+.sobre-flex {
+display: flex;
+justify-content: space-around;
+align-items: center;
+border: 3px solid white;
+
+}
+
+
+
+
+
+#sobrediv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-}
-#box-sobre {
-    height: 800px;
-    background-color: red;
-    
+
+    border: 1px solid purple; 
+    width: 491px;
+    height: 617px;
 }
 
-#box-info {
+#sobresection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 617px;
+    height: 491px;
+    border: 3px solid green;
+
+
+}
+
+.projetos {
+    color: #F9003D;
+    font-family: 'BebasNeue-Regular';
+    font-size: 64px;
+    font-weight: normal;
+
+     margin-bottom: 64px;
+
+    border: 5px solid black; 
+}
+
+.alunos {
+    color: #FFAF00;
+    font-family: 'BebasNeue-Regular';
+    font-size: 64px;
+    font-weight: normal;
+    width: 557px;
+
+    display: flex;
+}
+
+#sobresection h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+
+    display: flex;
+
+}
+
+#sobresection p {
+    color: white;
+    font-family: 'OpenSans-VariableFont';
+    font-weight: normal;
+    font-size: 18px;
+    border: 2px solid blue;
+
+    width: 592px;
+
+
+}
+
+#imagemsobre {
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+.info {
     height: 200px;
-    background-color: green;
+    width: 100%;
+    
+    background-image: url;
 }
 
-#box-end {
-    height: 516px;
-    background-color: pink;
-}
-
-main section h1 {
-    /* Mudanças de texto */
-    font-family: BebasNeue;
-    text-transform: uppercase;
-    font-size: 96px;
-    color: white;
-   
-    /* tamanho do box */
-    width: 545px;
-    height: 230px;
-    border: 2px solid black;
-    
-    /* centralização do texto */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    /* posição */
-    /* position: absolute;
-    top: 226px;
-    left: 121px; */
-    
-}
-main section h2 {
-    /* Mudancas de texto */
-    color: #f9003d;
-    font-family: BebasNeue;
-    
-    width: 544px;
-    height: 68px;
-    border: 2px solid black;
-    /* position: absolute;
-    top: 501px;
-    left: 120px; */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* ----------------FOOTER---------------- */
-
-footer {
-    background-color: red;
-    height: 82px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#boximagem {
+    height: 476px;
+    width: 491px;
+    border: 2px solid white;
 }
