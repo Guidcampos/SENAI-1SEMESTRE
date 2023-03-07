@@ -33,11 +33,19 @@ font-family: 'Open Sans', sans-serif; */
     /* border: 3px solid green; */
 }
 
+/* padrao corpo do site */
+body {
+    background-color: #080324;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
 /* cabeçalho */
 header {
     height: 60px;
     background-color: red;
-   
+    /* border: 2px solid blue; */
 }
 
 /* flexbox no cabeçalho */
@@ -52,7 +60,7 @@ header nav {
     justify-content: space-around;
     height: 22px;
     width: 591px;
-    
+    /* border: 2px solid black; */
 }
 
 header nav a {
@@ -61,6 +69,9 @@ header nav a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
     /* letter-spacing: 2px; */
 }
 
@@ -68,6 +79,7 @@ header nav a {
 header nav a:hover {
     background-color: white;
     color: red;
+    border-radius: 5px;
 }
 
 
@@ -82,23 +94,21 @@ main .banner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-
 }
 
-main .banner-flex{
+main .banner-flex {
     display: flex;
     align-items: center;
 }
 
-main .banner #desenvolvimento {
-    display: flex;
-    flex-direction: column;
+/* BANNER INFO */
+main .banner #bannerinfo {
     width: 550px;
-    border: 1px solid white;
+    /* border: 2px solid darkcyan; */
 }
 
-/* DESENVOLVIMENTO DE SISTEMAS */
-article #desenvolvimento h1 {
+/* BANNER INFO DESENVOLVIMENTO DE SISTEMAS */
+article #bannerinfo h1 {
     color: white;
     font-family: 'BebasNeue-Regular';
     font-weight: normal;
@@ -109,8 +119,8 @@ article #desenvolvimento h1 {
 
 }
 
-/* SENAI INFORMATICA */
-article #desenvolvimento h2 {
+/* BANNER INFO SENAI INFORMATICA */
+article #bannerinfo h2 {
     color: #F9003D;
     font-family: 'Courier New';
     font-weight: bold;
@@ -120,7 +130,7 @@ article #desenvolvimento h2 {
     margin-top: 29px;
 }
 
-/*  */
+/* LINHA LARANJA */
 #linha {
     width: 545px;
     height: 1px;
@@ -128,6 +138,7 @@ article #desenvolvimento h2 {
     background-color: #FFAF00;
 }
 
+/* IMAGEM MOUSE */
 #mouse {
     width: 80px;
     height: 80px;
@@ -135,107 +146,253 @@ article #desenvolvimento h2 {
 }
 
 
-/* main part sobre */
+
+
+
+
+
+
+
+
+
+/* main sobre */
+
 .sobre {
-    height: 800px;
-    background-color: #080324;
+    padding: 60px 0;
+}
+.sobre .sobre-flex {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
     
-
-}
-
-.sobre-flex {
-display: flex;
-justify-content: space-around;
-align-items: center;
-border: 3px solid white;
-
 }
 
 
-
-
-
-#sobrediv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    border: 1px solid purple; 
-    width: 491px;
-    height: 617px;
+/* main part SOBREBOX */
+.sobre .sobre-flex .sobrebox {
+    width: 500px;
+    /* border: 2px solid red; */
 }
 
-#sobresection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 617px;
-    height: 491px;
-    border: 3px solid green;
-
-
-}
-
-.projetos {
+.sobre .sobre-flex .sobrebox h2 {
+    margin-bottom: 40px;
+    font-family: BebasNeue-Regular;
+    font-size: 64px;
     color: #F9003D;
-    font-family: 'BebasNeue-Regular';
-    font-size: 64px;
-    font-weight: normal;
-
-     margin-bottom: 64px;
-
-    border: 5px solid black; 
 }
 
-.alunos {
-    color: #FFAF00;
-    font-family: 'BebasNeue-Regular';
-    font-size: 64px;
-    font-weight: normal;
-    width: 557px;
 
+/* SOBRE PARTICIPANTES */
+.sobre .sobre-flex .participantes {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+    width: 640px;
+    /* border: 2px solid red; */
 }
 
-#sobresection h2 {
-    color: white;
+.sobre-flex .participantes h3 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 24px;
 
-    display: flex;
-
+    margin-bottom: 20px;
 }
 
-#sobresection p {
-    color: white;
-    font-family: 'OpenSans-VariableFont';
-    font-weight: normal;
+.sobre-flex .participantes h4 {
+    font-family: BebasNeue-Regular;
+    font-size: 64px;
+    color: #FFAF00;
+
+    margin-bottom: 20px;
+}
+
+.sobre-flex .participantes p {
     font-size: 18px;
-    border: 2px solid blue;
-
-    width: 592px;
-
-
+    text-align: justify;
 }
 
-#imagemsobre {
-    max-width: 100%;
-    max-height: 100%;
-    
 
-}
+
+
+
+/* main INFO */
 
 .info {
     height: 200px;
-    width: 100%;
-    
-    background-image: url;
+    background-image: url(../assets/images/imagem-fundo-info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
-#boximagem {
-    height: 476px;
-    width: 491px;
-    border: 2px solid white;
+.info .info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-flex h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #A259F7;
+}
+
+
+.info .info-flex .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 289px;
+    height: 100px;
+    border: 2px solid #A259F7;
+}
+
+.info-flex .card h2 {
+    text-transform: uppercase;
+    color: #A259F7;
+    font-size: 28px;
+}
+
+
+
+/* endereco */
+.endereco {
+    background-image: url(../assets/images/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 516px;
+}
+
+
+.endereco-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco .endereco-flex .enderecotitle h1 {
+    font-size: 64px;
+    font-weight: normal;
+    font-family: BebasNeue-Regular;
+    text-transform: uppercase;
+    color: #FFAF00;
+}
+
+.endereco .endereco-flex .enderecolocal p {
+    color: #A259F7;
+    font-size: 24px;
+
+    width: 435px;
+}
+
+.endereco .endereco-flex .enderecolocal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+    padding-left: 66px;
+    z-index: 0;
+
+    background-color: #010010;
+    border: 2px solid #340B65;
+
+    width: 899px;
+    height: 203.36px;
+}
+
+.endereco .endereco-flex .enderecomapa {
+    position: absolute;
+    margin-left: 470px;
+    z-index: 1;
+}
+
+
+
+/* footer */
+.footer {
+    height: 82px;
+    background-color: #F9003D;
+}
+
+.footer .footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-flex .copyright p {
+    font-family: OpenSans-VariableFont;
+    font-size: 18px;
+}
+
+#senailogo {
+    width: 15%;
+    height: 15%;
+}
+
+/* DESKTOP FIRST  */
+
+
+header #menu-hamburger {
+    display: none;
+}
+
+
+/* MObile MEDIA */
+
+@media screen and  (max-width: 767px) {
+ 
+main , footer {
+    display: none;
+}
+
+header nav {
+position: fixed;
+top: 60px;
+left: 0;
+max-width: 360px;
+width: 80vw;
+height: 100vh;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #F9003D;
+
+}
+
+header nav a {
+    width: 150px;
+    margin-bottom: 30px;
+    border-left: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
+header nav a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color:#F9003D
+}
+
+
+
+
+
+header #menu-hamburger {
+    display: block;
+    opacity: 0.7;
+}
+
+header #menu-hamburger:hover {
+   opacity: 1.5;
+   
+}
+
 }

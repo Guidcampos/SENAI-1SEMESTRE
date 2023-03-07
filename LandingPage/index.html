@@ -7,72 +7,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LandingPage</title>
     <link rel="stylesheet" href="style/sytle.css">
-    
+  
 </head>
 
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <!-- <img id="senailogo" src="https://sp.senai.br/images/Senai.jpg" alt="logotipo"> -->
-            <nav>
+             <nav>
                 <a href="inicio">INICIO</a>
                 <a href="sobre">SOBRE</a>
                 <a href="desafios">DESAFIOS</a>
                 <a href="endereço">ENDEREÇO</a>
             </nav>
+            <img id="menu-hamburger" src="assets/icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="menu hamburger">
         </div>
     </header>
 
     <main>
-       
-
         <article class="banner">
             <div class="layout-grid banner-flex">
-                <div id="desenvolvimento">
+                <div id="bannerinfo">
                     <h1>DESENVOLVIMENTO DE SISTEMAS 2021</h1>
-                    <div id="linha"> </div>
+                    <div id="linha"></div>
                     <h2>SENAI INFORMÁTICA</h2>
-                    <img id="mouse" src="../LandingPage/assets/images/mouse.svg" alt="">
+                    <img id="mouse" src="assets/images/mouse.svg" alt="Mouse Amarelo">
                 </div>
             </div>
         </article>
 
-        <article class="sobre">
+
+        <section class="sobre">
             <div class="layout-grid sobre-flex">
-                <div id="sobrediv" >
-                    <h1 class="projetos">SOBRE OS PROJETOS</h1>
-                    <div id="boximagem">
-                        <img id="imagemsobre" src="../LandingPage/assets/images/imagem-seção-sobre.png" alt="">
+                <div class="sobrebox">
+                    <h2>Sobre os Projetos</h2>
+                    <img src="assets/images/imagem-seção-sobre.png" alt="Imagem de uma reunião">
+                </div>
+
+                <div class="participantes">
+                    <h3>Participantes</h3>
+                    <h4>Mais de 80 alunos organizados em 16 grupos</h4>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="info">
+            <div class="layout-grid info-flex">
+
+                <div class="cardbox">
+                    <h3>Local</h3>
+                    <div class="card">
+                        <h2>São Paulo</h2>
                     </div>
                 </div>
-                <section id="sobresection">
-                    <h2>PARTICIPANTES</h2>
-                    <h1 class="alunos">MAIS DE 80 ALUNOS ORGANIZADOS EM 16 GRUPOS</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
+
+                <div class="cardbox">
+                    <h3>Duração</h3>
+                    <div class="card">
+                        <h2>90 Dias</h2>
+                    </div>
+                </div>
+
+                <div class="cardbox">
+                    <h3>Desafios</h3>
+                    <div class="card">
+                        <h2>+30 Desafios</h2>
+                    </div>
+                </div>
+
             </div>
-        </article>
+        </section>
 
-        <article class="info"> ]
-            <div class="layout-grid">
 
-            
+        <section class="endereco">
+            <div class="layout-grid endereco-flex">
+                <div class="enderecobox">
+                    <div class="enderecotitle">
+                        <h1>Endereço:</h1>
+                    </div>
+                    <div class="enderecolocal">
+                        <p>Alameda Barão de Limeira, 539
+                            Santa Cecilia, São Paulo - SP
+                            CEP: 01202-001</p>
+                    </div>
+                </div>
+                <div class="enderecomapa">
+                    <img src="assets/images/mapa.png" alt="Mapa da localização do SENAI">
+                </div>
             </div>
-        
-        
-        </article>
-
-
+        </section>
     </main>
+        
+        <footer class="footer">
+            <div class="layout-grid footer-flex">
+                <div class="copyright">
+                    <p>Copyright © 2020 - Escola Senai de Informática</p>
+                </div>
+            </div>
+        </footer>
+    
 </body>
 
 </html>
