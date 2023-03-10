@@ -3,10 +3,12 @@
     font-family: inter;
     src: url(../assets/fonts/Inter.zip);
 }
+
 @font-face {
     font-family: titiliumweb;
     src: url(../assets/fonts/Titillium_Web.zip);
 }
+
 @font-face {
     font-family: quicksand;
     src: url(../assets/fonts/Quicksand.zip);
@@ -19,18 +21,173 @@
     box-sizing: border-box;
 }
 
+/* -------------------- Mobile first ---------------------- */
+
+@media screen and (max-width: 991px) {
+
+    .layout-grid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    body {
+        color: white;
+    }
 
 
-body {
-  color: white;
+    /*  ----------- HEADER MOBILE -------------- */
+
+    header {
+        background-color: #1b1426;
+        height: 60px;
+
+    }
+
+    header .header-top {
+        display: none;
+    }
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 80vw;
+        height: 100vh;
+        background-color: grey;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .menu-usuario {
+        display: none;
+    }
+
+    header .header-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
 }
 
-/* HEADER */
-header {
-    background-color: #1b1426;
-}
 
-header nav a {
-    text-decoration: none;
-    color: white;
+
+
+
+
+/* ---------DESKTOP-------------- */
+@media screen and (min-width: 992px) {
+
+
+
+    body {
+        color: white;
+    }
+
+    /* layout grid */
+    .layout-grid {
+        width: 100%;
+        height: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+
+    /* HEADER */
+    header {
+        background-color: #1b1426;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* ------------ HEADER TOP ------------- */
+    header .header-border {
+        border-bottom: 1px solid #f9aa01;
+    }
+
+    header .header-top {
+
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .contatos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 407px;
+    }
+
+    header .phone {
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .email {
+        display: flex;
+        width: 204px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .sociais {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 117px;
+    }
+
+    /* ---------------- HEADER BOTTOM ---------------------- */
+
+    header .header-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 91px;
+
+    }
+
+    header .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 407px;
+    }
+
+    header .menu-usuario {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 117px;
+    }
+
+    header #menu-hamburger {
+        display: none;
+    }
+
+    header #menu-pontos {
+        display: none;
+    }
+
+    header .header-bottom .phone{
+        display: none;
+    }
+    
+    header .header-bottom .email{
+        display: none;
+    }
+    header .header-bottom .sociais{
+        display: none;
+    }
 }
