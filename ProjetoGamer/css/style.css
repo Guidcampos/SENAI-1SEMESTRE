@@ -21,6 +21,17 @@
     box-sizing: border-box;
 }
 
+/* Classes Genéricas */
+
+.mostrar-menu {
+    left: 0 !important;
+}
+
+.mostrar-3p {
+    right: 0 !important;
+}
+
+
 /* -------------------- Mobile first ---------------------- */
 
 @media screen and (max-width: 991px) {
@@ -38,8 +49,13 @@
     /*  ----------- HEADER MOBILE -------------- */
 
     header {
+        position: fixed;
+        width: 100vw;
+        z-index: 100;
+        
         background-color: #1b1426;
         height: 60px;
+
 
     }
 
@@ -49,7 +65,22 @@
 
 
     header .menu-usuario {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 170px;
+        width: 66px;
+
+        position: fixed;
+        top: 60px;
+        right: -66vw;
+
+        background-image: linear-gradient(to right bottom, rgba(27, 28, 38, 0.7), rgba(27, 28, 38, 0.4));
+        backdrop-filter: blur(45px);
+
+        transition: right 1s;
     }
 
     header .header-bottom {
@@ -61,7 +92,7 @@
     header .header-bottom nav {
         position: fixed;
         top: 60px;
-        left: 0;
+        left: -80vw;
         width: 80vw;
         height: calc(100vh - 60px);
         background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
@@ -71,6 +102,9 @@
         flex-direction: column;
         padding-bottom: 20px;
 
+        z-index: 101;
+
+        transition: left 1s;
     }
 
     header .header-bottom nav>a {
@@ -108,10 +142,32 @@
     gap: 15px;
    }
 
+   header #menu-hamburger:hover {
+    opacity: 80%;
+    }
+    
+    header #menu-pontos:hover {
+     opacity: 80%;
+     }
+
+
 }
 
 
+/* -------------MAIN MOBILE---------------- */
+main {
+    position: absolute;
+    top: 60px;
+}
 
+main .banner {
+    width: 100vw;
+    height: 606px;
+
+    background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -229,4 +285,7 @@
     header .header-bottom .sociais {
         display: none;
     }
+main {
+    display: none;
+}
 }

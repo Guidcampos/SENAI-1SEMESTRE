@@ -50,12 +50,13 @@
 
             <div class="header-bottom layout-grid">
                 <!-- menu hamburger -->
-                <img id="menu-hamburger" src="assets/icons/Vectorbars.svg"
+                <img onclick="mostrarMenu()" id="menu-hamburger"
+                    src="assets/icons/Vectorbars.svg"
                     alt="menu em barras, menu hamburger">
 
                 <img src="assets/images/logotipo-gamer.png" alt="logotipo
                     escrito gamer">
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -95,13 +96,13 @@
                     </div>
 
                 </nav>
-            
+
 
                 <!-- menu 3 pontos -->
-                <img id="menu-pontos" src="assets/icons/Vectorpontos.svg"
+                <img onclick="mostrarPontos()" id="menu-pontos" src="assets/icons/Vectorpontos.svg"
                     alt="menu 3 pontos">
 
-                <div class="menu-usuario">
+                <div class="menu-usuario" id="pontos">
                     <a href="">
                         <img src="assets/icons/perfil.svg" alt="icone de
                             perfil">
@@ -117,16 +118,30 @@
                             lupa para pesquisa">
                     </a>
                 </div>
-            </div>
-
-
-
-
+             </div>
+            
         </header>
 
+        <main>
+            <section class="banner">
+
+            </section>
+            
+        </main>
 
 
 
 
+        <script>
+            function mostrarMenu() {
+                document .getElementById("menu").classList.toggle("mostrar-menu")
+             }
+             
+             function mostrarPontos() {
+                document .getElementById("pontos").classList.toggle("mostrar-3p")
+                
+             }
+             
+    </script>
     </body>
 </html>
