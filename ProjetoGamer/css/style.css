@@ -14,6 +14,18 @@
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: titiblack;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titibold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+
+
 /* RESET CSS */
 * {
     margin: 0;
@@ -34,7 +46,7 @@
 
 /* -------------------- Mobile first ---------------------- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
 
     .layout-grid {
         width: 90%;
@@ -52,7 +64,7 @@
         position: fixed;
         width: 100vw;
         z-index: 100;
-        
+
         background-color: #1b1426;
         height: 60px;
 
@@ -96,7 +108,7 @@
         width: 80vw;
         height: calc(100vh - 60px);
         background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-        backdrop-filter: blur(45px);
+        backdrop-filter: blur(15px);
 
         display: flex;
         flex-direction: column;
@@ -136,43 +148,110 @@
 
 
 
-     }
-
-   header nav .phone, .email {
-    gap: 15px;
-   }
-
-   header #menu-hamburger:hover {
-    opacity: 80%;
     }
-    
+
+    header nav .phone,
+    .email {
+        gap: 15px;
+    }
+
+    header #menu-hamburger:hover {
+        opacity: 80%;
+    }
+
     header #menu-pontos:hover {
-     opacity: 80%;
-     }
+        opacity: 80%;
+    }
+
+
+
+
+
+    /* -------------MAIN MOBILE---------------- */
+    main {
+        position: absolute;
+        top: 60px;
+    }
+
+    /* ------------- IMAGEM DE FUNDO BANNER -------------- */
+
+    main .banner {
+        width: 100vw;
+        height: 606px;
+
+        background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    main .banner h1 {
+        width: 222px;
+        height: 61px;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 40px;
+        font-family: titiblack;
+        text-shadow: 0 0 7px #FD4255;
+
+        padding-top: 10px;
+
+    }
+
+    main .banner a {
+        width: 171px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #f9aa01;
+
+        border-radius: 8px;
+
+        font-family: titibold;
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: none;
+        color: black;
+
+        margin-bottom: 87px;
+
+    }
+
+    main .jogos-flex {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    main .cards {
+        height: 590px;
+        width: 100%;
+
+        background-color: #1b1426;
+
+    }
 
 
 }
-
-
-/* -------------MAIN MOBILE---------------- */
-main {
-    position: absolute;
-    top: 60px;
-}
-
-main .banner {
-    width: 100vw;
-    height: 606px;
-
-    background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 
 /* ---------DESKTOP-------------- */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 
 
 
@@ -285,7 +364,8 @@ main .banner {
     header .header-bottom .sociais {
         display: none;
     }
-main {
-    display: none;
-}
+
+    main {
+        display: none;
+    }
 }
