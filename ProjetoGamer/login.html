@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina login</title>
+        <link rel="stylesheet" href="css/login.css">
+
+
+
+    </head>
+    <body>
+        <header>
+            <div class="header-border">
+                <div class="header-top layout-grid">
+                    <div class="contatos">
+                        <div class="phone">
+                            <img src="assets/icons/icone_telefone.svg"
+                                alt="icone de telefone de contato">
+                            <p>(11) 0900-1010</p>
+                        </div>
+
+                        <div class="email">
+                            <img src="assets/icons/icone_email.svg" alt="icone
+                                de email para contato">
+                            <p>contato@gamer.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="sociais">
+                        <a href="">
+                            <img src="assets/icons/facebook.svg" alt="icone link
+                                do facebook da empresa">
+                        </a>
+
+                        <a href="">
+                            <img src="assets/icons/linkedin.svg" alt="Icone link
+                                do linkedin da empresa">
+                        </a>
+
+                        <a href="">
+                            <img src="assets/icons/instagram.svg" alt="Icone
+                                link do instagram da empresa">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header-bottom layout-grid">
+                <!-- menu hamburger -->
+                <img onclick="mostrarMenu()" id="menu-hamburger"
+                    src="assets/icons/Vectorbars.svg"
+                    alt="menu em barras, menu hamburger">
+
+                <img src="assets/images/logotipo-gamer.png" alt="logotipo
+                    escrito gamer">
+                <nav class="menu" id="menu">
+                    <a href="">Início</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Notícias</a>
+
+                    <!-- Visivel apenas no MOBILE -->
+                    <a class="phone">
+                        <img src="assets/icons/icone_telefone.svg"
+                            alt="icone de telefone de contato">
+                        <p>(11) 0900-1010</p>
+                    </a>
+
+                    <a class="email">
+                        <img src="assets/icons/icone_email.svg" alt="icone
+                            de email para contato">
+                        <p>contato@gamer.com.br</p>
+                    </a>
+
+
+
+
+                    <div class="sociais">
+                        <a href="">
+                            <img src="assets/icons/facebook.svg" alt="icone link
+                                do facebook da empresa">
+                        </a>
+
+                        <a href="">
+                            <img src="assets/icons/linkedin.svg" alt="Icone link
+                                do linkedin da empresa">
+                        </a>
+
+                        <a href="">
+                            <img src="assets/icons/instagram.svg" alt="Icone
+                                link do instagram da empresa">
+                        </a>
+                    </div>
+
+                </nav>
+
+
+                <!-- menu 3 pontos -->
+                <img onclick="mostrarPontos()" id="menu-pontos"
+                    src="assets/icons/Vectorpontos.svg"
+                    alt="menu 3 pontos">
+
+                <div class="menu-usuario" id="pontos">
+                    <a href="">
+                        <img src="assets/icons/perfil.svg" alt="icone de
+                            perfil">
+                    </a>
+
+                    <a href="">
+                        <img src="assets/icons/loja.svg" alt="icone de
+                            loja">
+                    </a>
+
+                    <a href="">
+                        <img src="assets/icons/pesquisa.svg" alt="icone de
+                            lupa para pesquisa">
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            
+            
+            <section class="layout-grid flex-login" >
+                <h1>Login</h1>
+
+                <div id="input-email">
+                    <img src="assets/icons/Vectorperfillogin.svg" alt="">
+                    <input type="email" placeholder="Digite seu e-mail:">
+                </div>
+                
+                <div id="input-senha">
+                    <img src="assets/icons/Vectorchavelogin.svg" alt="">
+                    <input type="password" id="senhalogin" >
+                </div>
+
+            </section>
+
+
+
+
+        </main>
+
+
+
+
+
+
+        
+        
+        
+        
+        <footer></footer>
+
+        <script>
+             function mostrarMenu() {
+                document .getElementById("menu").classList.toggle("mostrar-menu")
+             }
+             
+             function mostrarPontos() {
+                document .getElementById("pontos").classList.toggle("mostrar-3p")
+                
+             }
+             
+        </script>
+    </body>
+</html>

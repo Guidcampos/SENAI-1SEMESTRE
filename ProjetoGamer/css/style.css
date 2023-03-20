@@ -246,6 +246,10 @@
 
     }
 
+    main .noticias, .info {
+        display: none;
+    }
+
 
 }
 
@@ -297,6 +301,11 @@
         align-items: center;
         justify-content: space-between;
         width: 407px;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+
     }
 
     header .phone {
@@ -344,28 +353,122 @@
         align-items: center;
         width: 117px;
     }
+    
+    
+    /* ------------------------- MAIN DESKTOP ---------------------------------------- */
+    
+    main .banner {
+        height: 722px;
+        background-image: url(../assets/images/Banner_background_1.png);
+        
+        background-size: cover;
+        background-position: top;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    main .banner h1 {
+        width: 444px;
+        height: 122px;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 80px;
+        font-family: titiblack;
+        text-shadow: 0 0 7px #FD4255;
+
+        padding-top: 16px;
+
+    }
+
+    main .banner a {
+        width: 200px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #f9aa01;
+
+        border-radius: 8px;
+
+        font-family: titibold;
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: none;
+        color: black;
+
+        margin-bottom: 72px;
+
+    }
+
+   main .cards {
+        display: block;
+        
+        background-color: #1b1426;
+        height: 500px;
+
+    }
+
+    main .jogos-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    main .popular {
+        height: 313px;
+        width: 556px;
+    }
+    
+    main .ultimo-jogo {
+        height: 313px;
+        width: 556px;
+    }
+
+    main .noticias, .info {
+        display: none;
+    }
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
     header #menu-hamburger {
         display: none;
     }
-
+    
     header #menu-pontos {
         display: none;
     }
-
+    
     header .header-bottom .phone {
         display: none;
     }
-
+    
     header .header-bottom .email {
         display: none;
     }
-
+    
     header .header-bottom .sociais {
         display: none;
     }
-
-    main {
-        display: none;
-    }
+    
 }
