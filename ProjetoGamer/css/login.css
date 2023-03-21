@@ -171,6 +171,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+  
 }
 
 main h1 {
@@ -180,11 +182,14 @@ main h1 {
     font-size: 28px;
     text-align: center;
     color: white;
+    text-transform: uppercase;
 
     height: 43px;
     width: 90px;
 
     border-top: 3px solid #f9aa01;
+
+    margin-bottom: 90px;
 }
 
 main .flex-login {
@@ -195,6 +200,22 @@ main .flex-login {
 
     height: 462px;
     width: 335px;
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, .38));
+  
+    border-top: 1px solid rgba(239, 239, 239, .7);
+    border-left: 1px solid rgba(239, 239, 239, .7);
+    border-bottom: 1px solid rgba(239, 239, 239, .2);
+    border-right: 1px solid rgba(239, 239, 239, .2);
+/*    
+    background:  
+    linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, .38)), content-box,
+    linear-gradient(to left bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.02)), border-box ; */
+
+    
+    backdrop-filter: blur(10px);
+
+    border-radius: 8px;
 
 }
 
@@ -207,16 +228,73 @@ main #input-email{
     align-items: center;
     gap: 12px;
 
+    margin-bottom: 31px;
+    padding-left: 16px;
 
+    background-image: linear-gradient(to right, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    
+    border-top: 1px solid rgba(239, 239, 239, .4);
+    border-left: 1px solid rgba(239, 239, 239, .7);
+    border-bottom: 1px solid rgba(239, 239, 239, .4);
+    border-right: 1px solid rgba(239, 239, 239,);
+    border-radius: 8px;
 }
 
 main #input-senha{
     height: 40px;
     width: 273px;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    
+    padding-left: 16px;
+    
+    background-image: linear-gradient(to right, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    
+    margin-bottom: 56px;
+    
+    border-radius: 8px;
+    
+    
+} 
 
+main div > input {
+    width: 100%;
+    height: 24px;
+   
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    color: white;
+}
+
+main .botao-logar {
+    height: 40px;
+    width: 273px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f9aa01;
+    border-radius: 8px;
+
+    color: #1b1426;
+    font-family: titibold;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+main input::placeholder {
+    color: white;
 }
