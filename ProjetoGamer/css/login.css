@@ -161,7 +161,7 @@ header #menu-pontos:hover {
 /* ------------------- MAIN MOBILE TELA LOGIN ------------------------------ */
 
 main {
-   padding-top: 60px;
+    padding-top: 60px;
     height: 687px;
 
     background-image: url(../assets/images/Banner_Loginloginimagen.png);
@@ -172,12 +172,12 @@ main {
     justify-content: center;
     align-items: center;
 
-  
+
 }
 
 main h1 {
-  
-   
+
+
     font-family: titiblack;
     font-size: 28px;
     text-align: center;
@@ -202,24 +202,24 @@ main .flex-login {
     width: 335px;
 
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, .38));
-  
+
     border-top: 1px solid rgba(239, 239, 239, .7);
     border-left: 1px solid rgba(239, 239, 239, .7);
     border-bottom: 1px solid rgba(239, 239, 239, .2);
     border-right: 1px solid rgba(239, 239, 239, .2);
-/*    
+    /*    
     background:  
     linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, .38)), content-box,
     linear-gradient(to left bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.02)), border-box ; */
 
-    
+
     backdrop-filter: blur(10px);
 
     border-radius: 8px;
 
 }
 
-main #input-email{
+main #input-email {
     height: 40px;
     width: 273px;
 
@@ -234,40 +234,44 @@ main #input-email{
     background-image: linear-gradient(to right, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
     background-color: transparent;
     backdrop-filter: blur(6px);
-    
+
     border-top: 1px solid rgba(239, 239, 239, .4);
     border-left: 1px solid rgba(239, 239, 239, .7);
     border-bottom: 1px solid rgba(239, 239, 239, .4);
-    border-right: 1px solid rgba(239, 239, 239,);
+    border-right: 1px solid rgba(239, 239, 239, );
     border-radius: 8px;
 }
 
-main #input-senha{
+main #input-senha {
     height: 40px;
     width: 273px;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
-    
+
     padding-left: 16px;
-    
+
     background-image: linear-gradient(to right, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
     background-color: transparent;
     backdrop-filter: blur(6px);
-    
-    margin-bottom: 56px;
-    
-    border-radius: 8px;
-    
-    
-} 
 
-main div > input {
+    margin-bottom: 56px;
+
+    border-top: 1px solid rgba(239, 239, 239, .4);
+    border-left: 1px solid rgba(239, 239, 239, .7);
+    border-bottom: 1px solid rgba(239, 239, 239, .4);
+    border-right: 1px solid rgba(239, 239, 239, );
+
+    border-radius: 8px;
+
+}
+
+main div>input {
     width: 100%;
     height: 24px;
-   
+
     background-color: transparent;
     outline: none;
     border: none;
@@ -297,4 +301,151 @@ main .botao-logar {
 
 main input::placeholder {
     color: white;
+}
+
+/* ------------------FOOTER MOBILE------------------------- */
+
+footer {
+    height: 1351px;
+
+    background-image: url(../assets/images/Group\ 5footergradientmobile.png);
+}
+
+footer .logofooter {
+    height: 310px;
+    width: 335px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 69px;
+
+    font-family: quicksand;
+    font-size: 14px;
+}
+
+footer .logofooter p {
+    height: 87px;
+    width: 335px;
+
+    margin-top: 41px;
+}
+
+
+footer .sociasfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 335px;
+
+    margin-top: 41px;
+}
+
+footer .linksfooter {
+    height: 155.05px;
+    width: 326.71px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 120px;
+}
+
+footer .linksfooter h1 {
+    font-family: titiblack;
+    font-size: 30px;
+
+}
+
+footer .linksfooter .linhalink {
+    border-bottom: 3px solid #f9aa01;
+    height: 0px;
+    width: 113px;
+    margin-bottom: 43.08px;
+
+}
+
+footer .linksfooter nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 12.78px 32.68px;
+
+    height: 61.87px;
+    width: 326.71px;
+}
+
+footer .linksfooter .alinha {
+    height: 2px;
+    width: 14.4px;
+    background-color: #f9aa01;
+}
+
+footer nav>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24.05px;
+}
+
+footer .linksfooter a {
+    text-decoration: none;
+    font-family: titibold;
+    font-size: 16px;
+    color: white;
+
+}
+
+footer .linksfooter .ainicio {
+    width: 68.66px;
+}
+
+footer .linksfooter .ajog {
+    width: 103px;
+}
+
+footer .linksfooter .anot {
+    width: 89.71px;
+}
+
+footer .linksfooter .alog {
+    width: 68.66px;
+}
+
+footer .linksfooter .aequipe {
+    width: 87.49px;
+}
+
+footer .contatos-footer h1 {
+    font-family: titiblack;
+    font-size: 30px;
+}
+
+.footer-end {
+    height: 164.32px;
+    width: 289px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.footer-end h2 {
+    font-family: titibold;
+    font-size: 16px;
+    color: #f9aa01;
+
+}
+
+footer .footer-end p {
+    font-family: titibold;
+    font-size: 16px;
 }
