@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\bin\Debug\net7.0\projetoMedia.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\bin\Debug\net7.0\projetoMedia.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\bin\Debug\net7.0\projetoMedia.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\bin\Debug\net7.0\projetoMedia.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\bin\Debug\net7.0\projetoMedia.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\refint\projetoMedia.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\projetoMedia.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\projetoMedia\obj\Debug\net7.0\ref\projetoMedia.dll
