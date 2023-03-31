@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Exercicio4Senha/1.0.0": {
+        "runtime": {
+          "Exercicio4Senha.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercicio4Senha/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

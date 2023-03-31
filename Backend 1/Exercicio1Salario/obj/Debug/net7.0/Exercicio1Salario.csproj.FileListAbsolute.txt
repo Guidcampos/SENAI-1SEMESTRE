@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\bin\Debug\net7.0\Exercicio1Salario.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\bin\Debug\net7.0\Exercicio1Salario.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\bin\Debug\net7.0\Exercicio1Salario.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\bin\Debug\net7.0\Exercicio1Salario.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\bin\Debug\net7.0\Exercicio1Salario.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\refint\Exercicio1Salario.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\Exercicio1Salario.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicio1Salario\obj\Debug\net7.0\ref\Exercicio1Salario.dll
