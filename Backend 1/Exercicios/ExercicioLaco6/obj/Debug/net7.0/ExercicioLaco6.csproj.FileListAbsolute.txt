@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\bin\Debug\net7.0\ExercicioLaco6.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\bin\Debug\net7.0\ExercicioLaco6.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\bin\Debug\net7.0\ExercicioLaco6.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\bin\Debug\net7.0\ExercicioLaco6.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\bin\Debug\net7.0\ExercicioLaco6.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\refint\ExercicioLaco6.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ExercicioLaco6.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\Exercicios\ExercicioLaco6\obj\Debug\net7.0\ref\ExercicioLaco6.dll

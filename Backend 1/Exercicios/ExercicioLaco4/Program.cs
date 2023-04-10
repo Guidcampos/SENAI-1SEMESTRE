@@ -15,48 +15,92 @@ int homemn = 0;
 int mulhers = 0;
 int mulhern = 0;
 
-
-
-// Console.WriteLine($"Qual seu sexo: (h) Homem ou (m) Mulher");
-// char sexo = char.Parse(Console.ReadLine()!);
-
-// Console.WriteLine($"Voce gostou do produto: (s) Sim ou (n) Não");
-// char resposta = char.Parse(Console.ReadLine()!);
-
-for (int pg = 0; pg <= 10; pg++)
+for (int pg = 1; pg <= 10; pg++)
 {
 
-    Console.WriteLine($"Qual seu sexo: (h) Homem ou (m) Mulher");
-    char sexo = char.Parse(Console.ReadLine()!);
-
-    switch (sexo)
+    do
     {
-        case 'h':
-            Console.WriteLine($"Voce gostou do produto: (s) Sim ou (n) Não");
-            char resposta = char.Parse(Console.ReadLine()!);
 
-            switch (resposta)
+        Console.WriteLine($"Qual seu sexo: (h) Homem ou (m) Mulher");
+        char sexo = char.Parse(Console.ReadLine()!);
+
+        do
+        {
+            switch (sexo)
             {
-                case 's':
-                    homem++;
-                    homems++;
+
+                case 'h':
+                    Console.WriteLine($"Voce gostou do produto: (s) Sim ou (n) Não");
+                    char resposta = char.Parse(Console.ReadLine()!);
+
+                    switch (resposta)
+                    {
+                        case 's':
+                            homem++;
+                            homems++;
+                            respostaok = true;
+                            sexook = true;
+                            break;
+
+                        case 'n':
+                            homem++;
+                            homemn++;
+                            respostaok = true;
+                            sexook = true;
+                            break;
+
+                        default:
+                            Console.WriteLine($"Resposta invalida");
+                            respostaok = false;
+                            break;
+                    }
                     break;
 
-                case 'n':
-                    homem++;
-                    homemn++;
+
+
+                case 'm':
+                    Console.WriteLine($"Voce gostou do produto: (s) Sim ou (n) Não");
+                    resposta = char.Parse(Console.ReadLine()!);
+
+                    switch (resposta)
+                    {
+                        case 's':
+                            mulher++;
+                            mulhers++;
+                            respostaok = true;
+                            sexook = true;
+                            break;
+
+                        case 'n':
+                            mulher++;
+                            mulhern++;
+                            respostaok = true;
+                            sexook = true;
+                            break;
+
+                        default:
+                            Console.WriteLine($"Resposta invalida");
+                            respostaok = false;
+                            break;
+                    }
                     break;
 
                 default:
-                    Console.WriteLine($"Resposta invalida");
-                    Console.WriteLine($"Voce gostou do produto: (s) Sim ou (n) Não");
-                    resposta = char.Parse(Console.ReadLine()!);
+                    Console.WriteLine($"Sexo invalido");
+                    sexook = false;
                     break;
+
             }
-            break;
+
+        } while (respostaok == false);
+
+    } while (sexook == false);
 
 
-            
-    }
-
+Console.WriteLine($@"
+Número de entrevistados {homem + mulher}
+Número de pessoas que responderam SIM: {homems + mulhers}
+Número de pessoas que responderam NAO: {homemn + mulhern}
+Número de mulheres que responderam SIM: {mulhers}
+Homens que responderam NAO entre os homens: {(100 * (double)homemn) / (double)homem}%");
 }
