@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\bin\Debug\net7.0\AulaFunçao.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\bin\Debug\net7.0\AulaFunçao.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\bin\Debug\net7.0\AulaFunçao.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\bin\Debug\net7.0\AulaFunçao.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\bin\Debug\net7.0\AulaFunçao.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\refint\AulaFunçao.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\AulaFunçao.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\AulaFunçao\obj\Debug\net7.0\ref\AulaFunçao.dll
