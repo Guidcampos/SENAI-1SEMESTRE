@@ -4,7 +4,7 @@
 // entre os 10 nomes lidos anteriormente (guardados no vetor), ou NÃO ACHEI caso contrário.
 
 
-string[] nomes = new string[10];
+string[] nomes = new string[3];
 
 for (int i = 0; i < nomes.Length; i++)
 {
@@ -17,14 +17,15 @@ for (int i = 0; i < nomes.Length; i++)
 Console.WriteLine($"Informe o nome que deseja encontrar:");
 string busca = Console.ReadLine()!.ToUpper();
 
-if (nomes.Contains(busca))
-{
-    Console.WriteLine($"ACHEI");
-}
+// if (nomes.Contains(busca))
+// {
+//     Console.WriteLine($"ACHEI");
+// }
 
-else
-    {
-        Console.WriteLine($"NAO ACHEI");
-    }
+// else
+// {
+//     Console.WriteLine($"NAO ACHEI");
+// }
 
 
+Console.WriteLine (nomes.Contains(busca) ? "Achei" : "Não achei");
