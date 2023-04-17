@@ -76,6 +76,88 @@ do
 
 
 
+// string[] nome = new string[5];
+
+
+// static string cadastro()
+// {
+
+// bool nvcad = true;
+// bool Stop = false;  
+
+
+//         string[] nome = new string[5];
+//         string[] origem = new string[5];
+//         string[] destino = new string[5];
+//         string[] data = new string[5];
+
+//     for (int i = 0; i < 2; i++)
+//     {
+//         Console.WriteLine($"Insira seu nome:");
+//         nome[i] = Console.ReadLine()!;
+
+//         Console.WriteLine($"Insira a origem do seu voo:");
+//         origem[i] = Console.ReadLine()!;
+
+//         Console.WriteLine($"Insira o destino do seu voo:");
+//         destino[i] = Console.ReadLine()!;
+
+//         Console.WriteLine($"Insira a data do seu voo: (dd/mm/aa)");
+//         data[i] = (Console.ReadLine()!);
+
+//         if (i == 1){
+//             break;
+//         }
+
+//         do
+//         {
+//             Console.WriteLine($"Deseja realizar mais um cadastro? S/N");
+//             char novocad = char.Parse(Console.ReadLine()!.ToUpper());
+
+//             switch (novocad)
+//             {
+
+//                 case 'S':
+//                     nvcad = true;
+//                     Stop = false;
+//                     break;
+
+//                 case 'N':
+//                    Stop = true;
+//                     break;
+                    
+
+//                 default:
+//                     nvcad = false;
+//                     break;
+//             }
+
+
+//         } while (nvcad == false);
+
+        
+//      if (Stop == true){
+//         break;
+//      }
+
+
+//     }
+
+//      string retorno = $"{nome.Length}";
+
+
+//     return retorno;
+
+    
+// }
+
+// cadastro();
+
+
+
+
+
+
 
 
 
