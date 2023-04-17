@@ -11,33 +11,105 @@
 // sabendo-se que o preço do litro da gasolina é R$ 5,30 e o preço do litro do álcool é R$ 4,90.
 // Dica: utilize switch case e funções/métodos para otimizar o algorítimo.
 
+using System.Globalization;
 
-char TipoC ;
+bool resposta = true;
+char TipoC;
 float litros;
-
+float total;
 
 
 static float gasolina(float litros)
 {
 
-float vlg = 5.30F;
-float vldescg;
+    float vlg = 5.30F;
+    float vldescg;
 
-if (litros <= 20)
+    if (litros <= 20)
+    {
+
+        vldescg = (vlg - (vlg * 0.04F)) * litros;
+
+    }
+    else
+    {
+
+        vldescg = (vlg - (0.06F * vlg)) * litros;
+
+    }
+
+    return vldescg;
+
+}
+
+static float alcool(float litros)
 {
- 
- vldescg = ( vlg * 0.04F ) - vlg;
+
+    float vlA = 4.90F;
+    float vldescA;
+
+    if (litros <= 20)
+    {
+
+        vldescA = (vlA - (vlA * 0.03F)) * litros;
+
+    }
+    else
+    {
+
+        vldescA = (vlA - (0.05F * vlA)) * litros;
+
+    }
+
+    return vldescA;
 
 }
- else 
- {
 
-   vldescg = (0.06F * vlg) - vlg;
+do
+{
 
- }
+    Console.WriteLine($"Escolha seu combustivel: A-álcool, G-gasolina ");
+    TipoC = char.Parse(Console.ReadLine()!.ToUpper());
 
- return vldescg;
 
-}
+    switch (TipoC)
+    {
+        case 'A':
+            Console.WriteLine($"Quantos litros deseja: ");
+            litros = float.Parse(Console.ReadLine()!);
+
+            total = alcool(litros);
+
+            Console.WriteLine($@"voce pediu {litros} litros de alcool, sua conta deu {total.ToString("C", new CultureInfo("pt-BR"))} reais");
+            break;
+
+        case 'G':
+            Console.WriteLine($"Quantos litros deseja: ");
+            litros = float.Parse(Console.ReadLine()!);
+
+            total = gasolina(litros);
+
+            Console.WriteLine($@"voce pediu {litros} litros de gasolina, sua conta deu {total.ToString("C", new CultureInfo("pt-BR"))} reais");
+            break;
+
+        default:
+            resposta = false;
+            Console.WriteLine($"Escolha invalida");
+            break;
+
+    }
+} while (resposta == false);
+
+
+
+
+
+
+
+
+
+
+
+
 
 

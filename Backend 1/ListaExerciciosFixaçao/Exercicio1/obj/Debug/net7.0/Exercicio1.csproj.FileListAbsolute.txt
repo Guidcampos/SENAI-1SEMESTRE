@@ -1,0 +1,15 @@
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.csproj.AssemblyReference.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.AssemblyInfoInputs.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.AssemblyInfo.cs
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.csproj.CoreCompileInputs.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\bin\Debug\net7.0\Exercicio1.exe
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\bin\Debug\net7.0\Exercicio1.deps.json
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\bin\Debug\net7.0\Exercicio1.runtimeconfig.json
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\bin\Debug\net7.0\Exercicio1.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\bin\Debug\net7.0\Exercicio1.pdb
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\refint\Exercicio1.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.pdb
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\Exercicio1.genruntimeconfig.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ListaExerciciosFixaçao\Exercicio1\obj\Debug\net7.0\ref\Exercicio1.dll
