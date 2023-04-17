@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\bin\Debug\net7.0\ProjetoPassagem.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\bin\Debug\net7.0\ProjetoPassagem.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\bin\Debug\net7.0\ProjetoPassagem.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\bin\Debug\net7.0\ProjetoPassagem.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\bin\Debug\net7.0\ProjetoPassagem.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\refint\ProjetoPassagem.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ProjetoPassagem.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoPassagem\obj\Debug\net7.0\ref\ProjetoPassagem.dll
