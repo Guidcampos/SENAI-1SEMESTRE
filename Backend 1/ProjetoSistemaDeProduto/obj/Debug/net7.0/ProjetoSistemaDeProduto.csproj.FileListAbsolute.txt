@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\bin\Debug\net7.0\ProjetoSistemaDeProduto.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\bin\Debug\net7.0\ProjetoSistemaDeProduto.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\bin\Debug\net7.0\ProjetoSistemaDeProduto.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\bin\Debug\net7.0\ProjetoSistemaDeProduto.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\bin\Debug\net7.0\ProjetoSistemaDeProduto.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\refint\ProjetoSistemaDeProduto.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ProjetoSistemaDeProduto.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ProjetoSistemaDeProduto\obj\Debug\net7.0\ref\ProjetoSistemaDeProduto.dll

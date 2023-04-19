@@ -13,11 +13,7 @@
 
 string senhainformada;
 const string senhasistema = "321";
-bool menuopcao = true;
 
-bool nvcad = true;
-bool Stop = false;
-bool menu = false;
 
 
 
@@ -62,7 +58,8 @@ do
 
 Console.WriteLine($"ACESSO LIBERADO");
 
-char novocad = 'a';
+
+char opcao;
 
 do
 {
@@ -76,62 +73,33 @@ do
 ------------------------------");
 
     Console.WriteLine($"Escolha uma opção:");
-    char opcao = char.Parse(Console.ReadLine()!);
+    opcao = char.Parse(Console.ReadLine()!);
+
+    string novocad;
 
     switch (opcao)
     {
 
         case '1':
 
-            for (int i = 0; i < 2; i++)
+            do
+
             {
-                do
 
+                for (int i = 0; i < 5; i++)
                 {
-
 
                     cadastrarPassagens(nome, origem, destino, data, i);
 
 
+                }
 
-                    Console.WriteLine($"Deseja realizar mais um cadastro? S/N");
-                    novocad = char.Parse(Console.ReadLine()!.ToUpper());
-
-
-                    switch (novocad)
-                    {
-
-                        case 'S':
-                            break;
-
-                        case 'N':
-                            menu = true;
-                            i = 3;
-                            break;
-
-                        default:
-
-                            break;
-
-                    }
-                } while (novocad == 'S');
-            }
+                Console.WriteLine($"Deseja realizar mais um cadastro? S/N");
+                novocad = Console.ReadLine()!.ToUpper();
 
 
+            } while (novocad == "S");
 
-
-
-
-
-
-
-
-
-
-
-            menu = false;
-            Stop = false;
-            menuopcao = true;
             break;
 
         case '2':
@@ -139,34 +107,51 @@ do
             for (int i = 0; i < 5; i++)
             {
 
-                Console.WriteLine($"Nome: {nome[i]}");
-                Console.WriteLine($"Origem: {origem[i]}");
-                Console.WriteLine($"Destino: {destino[i]}");
-                Console.WriteLine($"Data: {data[i]}");
+                Console.WriteLine($@"
+                
+                --------------------------------------
+                
+                    Nome:    {nome[i]}
+                    Origem:  {origem[i]}
+                    Destino: {destino[i]}
+                    Data:    {data[i]}  
+               
+               ---------------------------------------- ");
+
 
             }
 
-            Stop = false;
-            menuopcao = true;
-            menu = false;
             break;
+
 
 
         case '0':
-            Stop = false;
-            menuopcao = true;
-            menu = false;
+            Console.WriteLine($"Fim de programa");
             break;
+
 
         default:
-            menuopcao = false;
-            menu = true;
-            Stop = true;
+            Console.WriteLine($"Opção invalida");
             break;
-
     }
 
-} while (novocad == 'N' && novocad != 'S');
+
+
+} while (opcao != '0');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
