@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\bin\Debug\net7.0\ExeCelular.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\bin\Debug\net7.0\ExeCelular.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\bin\Debug\net7.0\ExeCelular.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\bin\Debug\net7.0\ExeCelular.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\bin\Debug\net7.0\ExeCelular.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\refint\ExeCelular.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ExeCelular.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeCelular\obj\Debug\net7.0\ref\ExeCelular.dll
