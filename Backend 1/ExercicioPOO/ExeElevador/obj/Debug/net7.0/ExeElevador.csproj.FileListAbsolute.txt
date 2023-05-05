@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\bin\Debug\net7.0\ExeElevador.exe
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\bin\Debug\net7.0\ExeElevador.deps.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\bin\Debug\net7.0\ExeElevador.runtimeconfig.json
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\bin\Debug\net7.0\ExeElevador.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\bin\Debug\net7.0\ExeElevador.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\refint\ExeElevador.dll
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.pdb
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ExeElevador.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\SENAI-1SEMESTRE\Backend 1\ExercicioPOO\ExeElevador\obj\Debug\net7.0\ref\ExeElevador.dll
