@@ -10,10 +10,18 @@ namespace ProjetoJogador
         public string? nacionalidade { get; set; }
         public float altura { get; set; }
         public float peso { get; set; }
-        public bool aposentado = false;
+  
+
+        abstract public void ImprimiJogador();
+        abstract public void CalcIdade();
+        abstract public void Aposentar();
 
 
-        abstract public void Aposentado();
+
+
+
+
+
 
 //        abstract public void ImprimiJogador();
 // //         

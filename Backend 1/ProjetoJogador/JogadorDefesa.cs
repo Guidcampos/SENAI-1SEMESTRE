@@ -7,7 +7,19 @@ namespace ProjetoJogador
 {
     public class JogadorDefesa : Jogador
     {
-        public override void Aposentado()
+        
+
+        public override void Aposentar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void CalcIdade()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ImprimiJogador()
         {
             throw new NotImplementedException();
         }
