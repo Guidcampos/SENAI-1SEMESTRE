@@ -1,0 +1,15 @@
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\bin\Debug\net7.0\ProjetoJogador.exe
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\bin\Debug\net7.0\ProjetoJogador.deps.json
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\bin\Debug\net7.0\ProjetoJogador.runtimeconfig.json
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\bin\Debug\net7.0\ProjetoJogador.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\bin\Debug\net7.0\ProjetoJogador.pdb
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.csproj.AssemblyReference.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.AssemblyInfoInputs.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.AssemblyInfo.cs
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.csproj.CoreCompileInputs.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\refint\ProjetoJogador.dll
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.pdb
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ProjetoJogador.genruntimeconfig.cache
+C:\Users\guilh_000\Desktop\SENAI\SENAI-1SEMESTRE\Backend 1\ProjetoJogador\obj\Debug\net7.0\ref\ProjetoJogador.dll

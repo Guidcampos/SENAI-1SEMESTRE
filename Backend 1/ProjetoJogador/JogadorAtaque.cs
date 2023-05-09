@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace ProjetoJogador
 {
@@ -9,17 +6,29 @@ namespace ProjetoJogador
     {
         public override void Aposentar()
         {
-            throw new NotImplementedException();
-        }
+            int tempoAposentar = 35 - CalcIdade();
+            if (tempoAposentar <= 0)
+            {
+                Console.WriteLine($@"
+            
+            Jogador {this.nome} encontra-se aposentado");
+            }
+            else
+            {
+                Console.WriteLine($@"
+            
+            Faltam {tempoAposentar} anos para Jogador {this.nome} se aposentar");
 
-        public override void CalcIdade()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override void ImprimiJogador()
-        {
-            throw new NotImplementedException();
+            }
         }
     }
 }
+                   
+            
+
+
+
+
+
+
+
