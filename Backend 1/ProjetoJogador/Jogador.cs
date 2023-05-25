@@ -10,36 +10,67 @@ namespace ProjetoJogador
         public string? nacionalidade { get; set; }
         public float altura { get; set; }
         public float peso { get; set; }
-  
 
-        abstract public void ImprimiJogador();
-        abstract public void CalcIdade();
+
+        public void Cadastro()
+        {
+            Console.WriteLine($"Informe o nome do jogador:");
+            this.nome = Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine($"Informe o ano de nascimento:");
+            this.nasc = int.Parse(Console.ReadLine()!);
+            Console.Clear();
+
+            Console.WriteLine($"Informe o nacionalidade do jogador:");
+            this.nacionalidade = Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine($"Informe a altura do jogador:");
+            this.altura = float.Parse(Console.ReadLine()!);
+            Console.Clear();
+
+            Console.WriteLine($"Informe o peso do jogador: ");
+            this.peso = float.Parse(Console.ReadLine()!);
+            Console.Clear();
+        }
+
+        public void ImprimiJogador()
+        {
+            Console.WriteLine($@"
+           --------------------------------------------------------
+           
+                        Nome: {this.nome}
+                        Ano de nascimento: {this.nasc}
+                        Nacionalidade: {this.nacionalidade}
+                        Altura: {this.altura} metros
+                        Peso: {this.peso} KG
+                        Idade: {this.CalcIdade()} Anos
+
+            --------------------------------------------------------
+            
+            ");
+        }
+        public int CalcIdade()
+        {
+            int idade = 2023 - this.nasc;
+
+            return idade;
+        }
+
+
         abstract public void Aposentar();
 
-
-
-
-
-
-
-
-//        abstract public void ImprimiJogador();
-// //         
-
-// //             Console.WriteLine($@"
-            
-// // --------------------------------------------------------   
-                     
-// //             Nome do jogador: {this.nome}
-// //             Idade: {2023 - this.nasc}
-// //             Nacionalidade: {this.nacionalidade}
-// //             Altura: {this.altura}
-// //             Peso: {this.peso}
-
-// // --------------------------------------------------------  
-// //             ");
-            
-
-        
     }
 }
+
+
+
+
+
+
+
+
+
+
+

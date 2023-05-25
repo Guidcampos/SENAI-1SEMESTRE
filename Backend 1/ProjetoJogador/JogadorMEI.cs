@@ -1,10 +1,11 @@
 namespace ProjetoJogador
 {
-    public class JogadorDEF : Jogador
+
+    public class JogadorMEI : Jogador
     {
         public override void Aposentar()
         {
-            int tempoAposentar = 40 - CalcIdade();
+            int tempoAposentar = 38 - CalcIdade();
             if (tempoAposentar <= 0)
             {
                 Console.WriteLine($@"
