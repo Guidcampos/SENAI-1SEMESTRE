@@ -1,0 +1,15 @@
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.csproj.AssemblyReference.cache
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\fix_MVC\bin\Debug\net7.0\fix_MVC.exe
+C:\Users\39905572899\Desktop\fix_MVC\bin\Debug\net7.0\fix_MVC.deps.json
+C:\Users\39905572899\Desktop\fix_MVC\bin\Debug\net7.0\fix_MVC.runtimeconfig.json
+C:\Users\39905572899\Desktop\fix_MVC\bin\Debug\net7.0\fix_MVC.dll
+C:\Users\39905572899\Desktop\fix_MVC\bin\Debug\net7.0\fix_MVC.pdb
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.dll
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\refint\fix_MVC.dll
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.pdb
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\fix_MVC.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\fix_MVC\obj\Debug\net7.0\ref\fix_MVC.dll
