@@ -64,8 +64,17 @@ namespace projeto_gamer.Controllers
         {
             return View("Error!");
         }
+
+
+
     }
 }
+       
+        
+        
+        
+        
+        
 
 
 

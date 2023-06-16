@@ -30,7 +30,17 @@ namespace projeto_gamer.Controllers
             ViewBag.Jogador = a.Jogador.ToList();
             ViewBag.Equipe = a.Equipe.ToList();
 
-            return View();
+            if (ViewBag.UserName == null)
+            {
+                return LocalRedirect("~/Login/Login");
+            }
+
+            else
+            {
+
+                return View();
+
+            }
         }
 
         [Route("Cadastrar")]
@@ -74,8 +84,20 @@ namespace projeto_gamer.Controllers
             ViewBag.Jogador = e;
             ViewBag.Equipe = a.Equipe.ToList();
 
-            return View("Edit");
+            if (ViewBag.UserName == null)
+            {
+                return LocalRedirect("~/Login/Login");
+            }
+
+            else
+            {
+                return View("Edit");
+            }
         }
+
+
+
+
 
         [Route("Atualizar")]
         public IActionResult Atualizar(IFormCollection form, Jogador e)

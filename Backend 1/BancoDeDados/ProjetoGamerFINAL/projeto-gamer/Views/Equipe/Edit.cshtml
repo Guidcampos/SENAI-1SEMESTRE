@@ -4,7 +4,58 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Edição de Equipes</h2>
+<link rel="stylesheet" href="~/css/equipes.css" asp-append-version="true"/>
+
+
+<!-- MAIN -->
+<main>
+
+    @if (ViewBag.Username == null)
+    {
+
+        <a class="navbar-brand" asp-area="" asp-controller="Login"
+            asp-action="Index">Login</a>
+    }
+    else
+    {
+
+
+        <section class="container-grid cadastro-equipes">
+
+
+            <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Atualizar Equipe</h1>
+                    <hr>
+                </div>
+
+                @* <input class="campo-entrada" type="number" id="idEquipe"
+            placeholder="Digite o Id da sua equipe:"> *@
+                
+                <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+                
+                <input class="campo-entrada" type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+                 
+                <label class="foto" for="foto-file">
+                    Nenuma imagem selecionada...
+                <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem" id="foto-file">
+                </label>
+
+                <button type="submit">Atualizar</button>
+
+
+            </form>
+
+           
+        </section>
+    }
+</main>
+
+
+
+
+
+@* <h2>Edição de Equipes</h2>
 
 <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data"> 
 
@@ -18,6 +69,6 @@
 
 <button type="submit">Atualizar</button>
 
-</form>
+</form> *@
 
 

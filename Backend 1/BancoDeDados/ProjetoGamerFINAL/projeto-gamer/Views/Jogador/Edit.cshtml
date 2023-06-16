@@ -5,30 +5,94 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Edição de Jogadors</h2>
+<link rel="stylesheet" href="~/css/jogadores.css" asp-append-version="true">
 
-<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data" > 
+<main>
+
+   @if (ViewBag.Username == null)
+    {
+        <a class="navbar-brand" asp-area="" asp-controller="Login"
+            asp-action="Index">Login</a>
+    }
+
+    else
+    { 
+
+
+        <section class="container-grid cadastro-equipes">
+
+
+            <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Edição de Jogadores</h1>
+                    <hr>
+                </div>
+
+                @* <input class="campo-entrada" type="number" id="id-equipe"
+            placeholder="Digite o Id da sua equipe:"> *@
+                @* <input class="campo-entrada" type="text" id="nome-equipe"
+            placeholder="Digite o nome da sua equipe:"> *@
+
+                <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
+
+                <input class="campo-entrada" type="text" name="Nome" placeholder="Digite o nome do Jogador:"
+                    value="@ViewBag.Jogador.Nome" required>
+                
+                <input class="campo-entrada" type="email" name="Email" placeholder="Digite o Email do Jogador:"
+                    value="@ViewBag.Jogador.Email" required>
+                
+                <input class="campo-entrada" type="password" name="Senha" placeholder="Digite a Senha:"
+                     value="@ViewBag.Jogador.Senha" required>
+                
+                <select class="campo-entrada" name="IdEquipe" id="IdEquipe" required>
+                    <option value="0">Selecione uma opcao</option>
+
+                    @foreach (var x in ViewBag.Equipe)
+                    {
+                        <option value="@x.IdEquipe">@x.Nome</option>
+                    }
+                </select>
+
+
+
+                <button type="submit">Atualizar</button>
+
+
+
+
+            </form>
+        </section>
+
+     } 
+
+</main>
+
+
+@* <h2>Edição de Jogadors</h2>
+
+<form method="post" action="@Url.Action("Atualizar")"
+enctype="multipart/form-data" >
 
 <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
 
 <label for="">Nome</label>
 <input type="text" name="Nome" value="@ViewBag.Jogador.Nome">
 
-<label  for="">Email</label>
+<label for="">Email</label>
 <input type="email" name="Email" value="@ViewBag.Jogador.Email">
 
-<label  for="">Senha</label>
+<label for="">Senha</label>
 <input type="password" name="Senha" value="@ViewBag.Jogador.Senha">
 
 <label for="">Equipe</label>
-    <select name="IdEquipe" id="IdEquipe">
-        <option value="0">Selecione uma opcao</option>
-        @foreach (var x in ViewBag.Equipe)
-        {
-            <option value="@x.IdEquipe">@x.Nome</option>  
-        }
-    </select>
+<select name="IdEquipe" id="IdEquipe">
+<option value="0">Selecione uma opcao</option>
+@foreach (var x in ViewBag.Equipe)
+{
+<option value="@x.IdEquipe">@x.Nome</option>
+}
+</select>
 
 <button type="submit">Atualizar</button>
 
-</form>
+</form> *@

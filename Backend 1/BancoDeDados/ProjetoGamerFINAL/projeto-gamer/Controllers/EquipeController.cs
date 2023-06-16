@@ -32,8 +32,19 @@ namespace projeto_gamer.Controllers
             //recurso de MVC que utiliza de uma "mochila" que contem as listas das equipes e pode ser acessada a qualquer momento na view de equipe
             ViewBag.Equipe = c.Equipe.ToList();
 
+               if(ViewBag.UserName == null)
+            {
+                return LocalRedirect ("~/Login/Login");
+            }
+           
+            else
+            {
+
             // retorna a view de equipe
             return View();
+
+            }
+
         }
 
         [Route("Cadastrar")]
@@ -113,8 +124,20 @@ namespace projeto_gamer.Controllers
 
             ViewBag.Equipe = e;
 
+               if(ViewBag.UserName == null)
+            {
+                return LocalRedirect ("~/Login/Login");
+            }
+           
+            else
+            {
+
             return View("Edit");
+
+            }
+      
         }
+
 
         [Route("Atualizar")]
         public IActionResult Atualizar(IFormCollection form, Equipe e)
@@ -186,4 +209,6 @@ namespace projeto_gamer.Controllers
 
 
 
+
+           
 
