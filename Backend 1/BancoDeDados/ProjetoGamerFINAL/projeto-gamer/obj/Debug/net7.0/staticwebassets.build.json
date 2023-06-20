@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4bk24uwpt7sXHfuEANuV6HGDTbRAoifSYLJsk0w3wc4=",
+  "Hash": "TAW2yCvdC0DaZywg6hn2UK2TS8Wx/XxnkmRHh1s8GBI=",
   "Source": "projeto-gamer",
   "BasePath": "_content/projeto-gamer",
   "Mode": "Default",
@@ -1579,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\noticia8.png"
+    },
+    {
+      "Identity": "C:\\Users\\39905572899\\Desktop\\SENAI-1SEMESTRE\\Backend 1\\BancoDeDados\\ProjetoGamerFINAL\\projeto-gamer\\wwwroot\\img\\Equipes\\584d8683367b6a13e54477d4.png",
+      "SourceId": "projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\39905572899\\Desktop\\SENAI-1SEMESTRE\\Backend 1\\BancoDeDados\\ProjetoGamerFINAL\\projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer",
+      "RelativePath": "img/Equipes/584d8683367b6a13e54477d4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\584d8683367b6a13e54477d4.png"
     },
     {
       "Identity": "C:\\Users\\39905572899\\Desktop\\SENAI-1SEMESTRE\\Backend 1\\BancoDeDados\\ProjetoGamerFINAL\\projeto-gamer\\wwwroot\\img\\Equipes\\barcelona.png",
